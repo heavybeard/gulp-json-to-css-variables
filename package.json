@@ -1,0 +1,27 @@
+{
+  "name": "gulp-json-to-css-variables",
+  "version": "1.0.0",
+  "description": "Generate CSS Variables from a json file with Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:heavybeard/gulp-json-to-css-variables.git"
+  },
+  "keywords": [
+    "json",
+    "css variables",
+    "gulp"
+  ],
+  "author": "Andrea Cognini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heavybeard/gulp-json-to-css-variables/issues"
+  },
+  "homepage": "https://github.com/heavybeard/gulp-json-to-css-variables#readme",
+  "devDependencies": {
+    "json-to-css-variables": "^1.0.0"
+  }
+}
