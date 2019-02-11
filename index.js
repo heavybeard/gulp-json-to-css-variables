@@ -10,7 +10,7 @@ module.exports = () => {
     transformStream._transform = (file, encoding, callback) => {
         file.path = `${file.path.substr(0, file.path.lastIndexOf('.json'))}.css`;
         file.contents = Buffer.from(
-            jsonToCssVariables(JSON.parse(file.contents.toString()), { unit: '', pretty: true }),
+            jsonToCssVariables(JSON.parse(file.contents.toString()), { unit: '', pretty: true, element: ':root' }),
             encoding,
         );
         callback(null, file);
