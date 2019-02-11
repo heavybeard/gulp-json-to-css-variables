@@ -1,6 +1,6 @@
 {
   "name": "gulp-json-to-css-variables",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate CSS Variables from a json file with Gulp",
   "main": "index.js",
   "scripts": {
